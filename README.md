@@ -1,7 +1,7 @@
 # ExerLeetCode
 
-**Número da Lista**: 3 trabalho<br>
-**Conteúdo da Disciplina**: Greedy Algorithms<br>
+**Número da Lista**: 4 trabalho<br>
+**Conteúdo da Disciplina**: Dividir e Conquistar<br>
 
 ## Alunos
 |Matrícula | Aluno |
