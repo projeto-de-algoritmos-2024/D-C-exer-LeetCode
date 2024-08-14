@@ -19,7 +19,8 @@ A partir do juiz Online [LeetCode](https://leetcode.com/) selecionei 2 exercíci
 
 ### [Exercício 2 (Médio) 
 
-### [Exercício 3 (Difícil)
+### [Exercício 3 (Difícil) Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description)
+![submission](Find%20K-th%20Smallest%20Pair%20Distance/images/submission.png)
 
 ### [Exercício 4 (Difícil)
 
