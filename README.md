@@ -22,8 +22,8 @@ A partir do juiz Online [LeetCode](https://leetcode.com/) selecionei 2 exercíci
 ### [Exercício 3 (Difícil) Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description)
 ![submission](Find%20K-th%20Smallest%20Pair%20Distance/images/submission.png)
 
-### [Exercício 4 (Difícil)
-
+### [Exercício 4 (Difícil) Median of Two Sorted Arrays](https://leetcode.com/problems/median-of-two-sorted-arrays/description/)
+![submission](Median%20of%20Two%20Sorted%20Arrays/imagens/submission.png)
 ## Instalação 
 **Linguagem**: Python3<br>
 Você precisará apenas criar uma conta no [LeetCode](https://leetcode.com/).
