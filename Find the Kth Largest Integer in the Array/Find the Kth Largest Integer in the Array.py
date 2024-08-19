@@ -4,41 +4,50 @@ class Solution:
         #acha a mediana de cada grupo
         #acha a mediana das medianas
         
+        if len(lista) <= 5:
+            lista.sort()
+            return lista[len(lista) // 2]
+        
         listinha = []
         listaMediana = []
         
         for i in range(0,len(lista),5):
-            for j in range(0,5):
-                listinha.append(j)
-                
+            listinha = lista[i:i + 5] 
             listinha.sort()
             listaMediana.append(listinha[2])
 
-        if len(listaMediana) > 5:
-            self.oraculo(listaMediana)
-        else:
-            listaMediana.sort()
-            meio = int(len(listaMediana)/2)
-            return listaMediana[meio]
-            
+        return self.oraculo(listaMediana)
+    
+    def quickSelect(self, lista, left, right, k):
+        if left == right:
+            return lista[left]
         
+        pivo = self.oraculo(lista)
+        pivoIndice = self.partir(lista, left, right, pivo)
+        
+        if k == pivoIndice:
+            return lista[k]
+        elif k < pivoIndice:
+            return self.quickSelect(lista, left, pivoIndice-1 , k)
+        else:
+            return self.quickSelect(lista, pivoIndice+1, right, k)
+    
+    def partir(self, lista, left, right, pivo):
+        indicePivo = lista.index(pivo)
+        lista[indicePivo], lista[right] = lista[right], lista[indicePivo]
+        indice = left
+        
+        for i in range(left, right):
+            if lista[i] < pivo:
+                lista[i], lista[indice] = lista[indice], lista[i]
+                indice += 1
+        
+        lista[indice], lista[right] = lista[right], lista[indice]
+        
+        return indice
+           
+                
     def kthLargestNumber(self, nums: List[str], k: int) -> str:
         int_list = [int(i) for i in nums]
-        knum = self.oraculo(int_list)
-        listaL = []
-        listaR = []
         
-        #Arrumar os nums ao redor do pivo
-        for i in int_list:
-            if i < knum:
-                listaL.append(i)
-            else:
-                listaR.append(i)
-        
-        #Compara
-        if len(listaL) == k - 1:
-            return str(knum)
-        if len(listaL) > k - 1:
-            self.oraculo(listaL)
-        else:
-            self.oraculo(listaR)
+        return str(self.quickSelect(int_list, 0, (len(int_list) - 1), (len(int_list) - k)))
