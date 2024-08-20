@@ -29,4 +29,4 @@ A partir do juiz Online [LeetCode](https://leetcode.com/) selecionei 2 exercíci
 Você precisará apenas criar uma conta no [LeetCode](https://leetcode.com/).
 
 ## Apresentação
-Vídeo de apresentação
+[Vídeo de apresentação](https://www.youtube.com/watch?v=PViR7YlJuMU)
