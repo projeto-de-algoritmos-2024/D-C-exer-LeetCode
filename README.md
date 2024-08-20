@@ -15,9 +15,11 @@ A partir do juiz Online [LeetCode](https://leetcode.com/) selecionei 2 exercíci
 
 ## Screenshots - Mais imagens são fornecidas dentro da pasta "nome do exercicio" > imagens
 
-### [Exercício 1 (Médio) 
+### [Exercício 1 (Médio) Find the Kth Largest Integer in the Array](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)
+![submission](https://github.com/user-attachments/assets/e392046d-65f9-41b3-a87b-040fe72bbba9)
 
-### [Exercício 2 (Médio) 
+### [Exercício 2 (Difícil) Count of Smaller Numbers After Self](https://leetcode.com/problems/count-of-smaller-numbers-after-self/description/)
+![submission](https://github.com/user-attachments/assets/3f497616-1ba7-4f14-ae1f-a0b0d3d1669c)
 
 ### [Exercício 3 (Difícil) Find K-th Smallest Pair Distance](https://leetcode.com/problems/find-k-th-smallest-pair-distance/description)
 ![submission](Find%20K-th%20Smallest%20Pair%20Distance/images/submission.png)
